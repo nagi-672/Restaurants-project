@@ -1,0 +1,34 @@
+body {
+    font-family: Arial,sans-serif;
+    margin: 20px;
+    text-align: center;
+}
+.level {
+    background-color: #007bff;
+    color: yellow;
+    padding: 15px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.level:hover {
+    background-color: #0056b3;
+}
+.tasks {
+    display: none;
+    margin-top: 10px;
+}
+.tasks button {
+    display: block;
+    width: 200px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+.tasks button:hover {
+    background-color: #e9ecef;
+}
